@@ -13,13 +13,15 @@ public class SceneManager : MonoBehaviour
 	public Button LoadRewardedVideoAd;
 	public Button ShowInterstitialAd;
 	public Button ShowRewardedVideoAd;
+	public TMPro.TextMeshProUGUI StatusText;
+	public TMPro.TextMeshProUGUI Counter;
 
 #if UNITY_ANDROID || UNITY_EDITOR
 	private readonly string[] _bannerAdUnits = { "b195f8dd8ded45fe847ad89ed1d016da" };
-	// private readonly string[] _interstitialAdUnits = { "252412d5e9364a05ab77d9396346d73d" };
-	// private readonly string[] _rewardedAdUnits = { "920b6145fb1546cf8b5cf2ac34638bb7" };
-	private readonly string[] _interstitialAdUnits = { "bb45288e5142444aae022b55a6035d0c" };
-	private readonly string[] _rewardedAdUnits = { "30c362fc0e0a46b991d8a543e7bfde7c" };
+	private readonly string[] _interstitialAdUnits = { "24534e1901884e398f1253216226017e", "bb45288e5142444aae022b55a6035d0c" };
+	private readonly string[] _rewardedAdUnits = { "920b6145fb1546cf8b5cf2ac34638bb7", "30c362fc0e0a46b991d8a543e7bfde7c" };
+	private int interstitialAdIdx = 0;
+	private int rewardedAdUnitsIdx = 0;
 #endif
 
 	private void OnConsentDialogLoaded()
@@ -29,20 +31,10 @@ public class SceneManager : MonoBehaviour
 
 	private void Start()
 	{
-		MoPubManager.OnAdLoadedEvent += (str, f) =>
-		{
-			Debug.Log($"AdLoadEvent: {str}, {f}");
-		};
-
 		MoPubManager.OnSdkInitializedEvent += (adUnitId) =>
 		{
 			Debug.Log($"{this.GetType().Name}: Initialized SDK. {adUnitId}");
-
-			// Start loading the consent dialog. This call fails if the user has opted out of ad personalization
-			// MoPub.LoadConsentDialog();
-
-			// // If you have subscribed to listen to events, in the OnConsentDialogLoadedEvent callback, show the consent dialog that the SDK has prepared for you.
-			// MoPubManager.OnConsentDialogLoadedEvent += OnConsentDialogLoaded;
+			StatusText.text += $"{this.GetType().Name}: Initialized SDK. {adUnitId}";
 		};
 
 		InitializeMoPubButton.onClick.AddListener(() =>
@@ -51,40 +43,40 @@ public class SceneManager : MonoBehaviour
 			MoPub.LoadBannerPluginsForAdUnits(_bannerAdUnits);
 			MoPub.LoadInterstitialPluginsForAdUnits(_interstitialAdUnits);
 			MoPub.LoadRewardedVideoPluginsForAdUnits(_rewardedAdUnits);
-			MoPub.RequestBanner(_bannerAdUnits[0], MoPub.AdPosition.BottomCenter);
-
-			MoPub.ShowBanner(_bannerAdUnits[0], true);
 		});
 
 		LoadInterstitialAd.onClick.AddListener(() =>
 		{
-			MoPub.RequestInterstitialAd(_interstitialAdUnits[0]);
+			MoPub.RequestInterstitialAd(_interstitialAdUnits[interstitialAdIdx]);
 		});
+
 		LoadRewardedVideoAd.onClick.AddListener(() =>
 		{
-			foreach (var item in _rewardedAdUnits)
-			{
-				MoPub.RequestRewardedVideo(item);
-			}
+			MoPub.RequestRewardedVideo(_rewardedAdUnits[rewardedAdUnitsIdx]);
 		});
+
 		ShowInterstitialAd.onClick.AddListener(() =>
 		{
-			MoPub.ShowInterstitialAd(_interstitialAdUnits[0]);
+			MoPub.ShowInterstitialAd(_interstitialAdUnits[interstitialAdIdx]);
+			interstitialAdIdx = (interstitialAdIdx + 1) % _interstitialAdUnits.Length;
 		});
+
 		ShowRewardedVideoAd.onClick.AddListener(() =>
 		{
-			MoPub.ShowRewardedVideo(_rewardedAdUnits[0]);
+			MoPub.ShowRewardedVideo(_rewardedAdUnits[rewardedAdUnitsIdx]);
+			rewardedAdUnitsIdx = (rewardedAdUnitsIdx + 1) % _rewardedAdUnits.Length;
 		});
+
+		MoPubManager.OnAdLoadedEvent += (s, f) => Debug.Log($"OnAdLoadedEvent: {s}, {f}");
+		MoPubManager.OnInterstitialLoadedEvent += (placementId) => StatusText.text = $"Interstitial loaded: {placementId}";
+		MoPubManager.OnInterstitialFailedEvent += (placementId, e) => StatusText.text = $"Interstitial failed: {placementId}, {e}";
+		MoPubManager.OnInterstitialDismissedEvent += (placementId) => StatusText.text = $"Interstitial dismissed: {placementId}";
+		MoPubManager.OnInterstitialShownEvent += (placementId) => StatusText.text = $"Interstitial shown: {placementId}";
+
+		MoPubManager.OnRewardedVideoLoadedEvent += (placementId) => StatusText.text = $"RewardedVideo loaded: {placementId}";
+		MoPubManager.OnRewardedVideoFailedToPlayEvent += (s, e) => StatusText.text = $"RewardedVideo Failed to play: {s}, {e}";
+		MoPubManager.OnRewardedVideoFailedEvent += (s, e) => StatusText.text = $"RewardedVideo Failed: {s}, {e}";
+		MoPubManager.OnRewardedVideoShownEvent += (placementId) => StatusText.text = $"RewardedVideo shown: {placementId}";
+		MoPubManager.OnRewardedVideoClosedEvent += (placementId) => StatusText.text = $"RewardedVideo Closed: {placementId}";
 	}
-
-	public void LogIt(string log)
-	{
-
-	}
-
-	private void OnDestroy()
-	{
-		// ShowInterstitialAd.onClick.RemoveAllListeners();
-	}
-
 }
