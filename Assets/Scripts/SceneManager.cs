@@ -16,24 +16,33 @@ public class SceneManager : MonoBehaviour
 
 #if UNITY_ANDROID || UNITY_EDITOR
 	private readonly string[] _bannerAdUnits = { "b195f8dd8ded45fe847ad89ed1d016da" };
-	private readonly string[] _interstitialAdUnits = { "24534e1901884e398f1253216226017e" };
-	private readonly string[] _rewardedAdUnits = { "920b6145fb1546cf8b5cf2ac34638bb7", "a96ae2ef41d44822af45c6328c4e1eb1" };
+	// private readonly string[] _interstitialAdUnits = { "252412d5e9364a05ab77d9396346d73d" };
+	// private readonly string[] _rewardedAdUnits = { "920b6145fb1546cf8b5cf2ac34638bb7" };
+	private readonly string[] _interstitialAdUnits = { "bb45288e5142444aae022b55a6035d0c" };
+	private readonly string[] _rewardedAdUnits = { "30c362fc0e0a46b991d8a543e7bfde7c" };
 #endif
 
-	private void Awake()
+	private void OnConsentDialogLoaded()
 	{
-		MoPubManager.OnAdLoadedEvent += (str, f) =>
-		{
-			Debug.Log($"{str}, {f}: ADLOADED");
-		};
+		MoPub.ShowConsentDialog();
 	}
 
 	private void Start()
 	{
+		MoPubManager.OnAdLoadedEvent += (str, f) =>
+		{
+			Debug.Log($"AdLoadEvent: {str}, {f}");
+		};
+
 		MoPubManager.OnSdkInitializedEvent += (adUnitId) =>
 		{
 			Debug.Log($"{this.GetType().Name}: Initialized SDK. {adUnitId}");
-			// MoPub.ShowBanner(bannerAdUnits[0], true);
+
+			// Start loading the consent dialog. This call fails if the user has opted out of ad personalization
+			// MoPub.LoadConsentDialog();
+
+			// // If you have subscribed to listen to events, in the OnConsentDialogLoadedEvent callback, show the consent dialog that the SDK has prepared for you.
+			// MoPubManager.OnConsentDialogLoadedEvent += OnConsentDialogLoaded;
 		};
 
 		InitializeMoPubButton.onClick.AddListener(() =>
@@ -42,6 +51,9 @@ public class SceneManager : MonoBehaviour
 			MoPub.LoadBannerPluginsForAdUnits(_bannerAdUnits);
 			MoPub.LoadInterstitialPluginsForAdUnits(_interstitialAdUnits);
 			MoPub.LoadRewardedVideoPluginsForAdUnits(_rewardedAdUnits);
+			MoPub.RequestBanner(_bannerAdUnits[0], MoPub.AdPosition.BottomCenter);
+
+			MoPub.ShowBanner(_bannerAdUnits[0], true);
 		});
 
 		LoadInterstitialAd.onClick.AddListener(() =>
@@ -50,17 +62,17 @@ public class SceneManager : MonoBehaviour
 		});
 		LoadRewardedVideoAd.onClick.AddListener(() =>
 		{
-			// MoPub.RequestRewardedVideo("Rewarded_Android");
-			MoPub.RequestRewardedVideo(_rewardedAdUnits[0]);
+			foreach (var item in _rewardedAdUnits)
+			{
+				MoPub.RequestRewardedVideo(item);
+			}
 		});
 		ShowInterstitialAd.onClick.AddListener(() =>
 		{
-			// MoPub.ShowRewardedVideo("Rewarded_Android");
 			MoPub.ShowInterstitialAd(_interstitialAdUnits[0]);
 		});
 		ShowRewardedVideoAd.onClick.AddListener(() =>
 		{
-			// MoPub.ShowRewardedVideo("Rewarded_Android");
 			MoPub.ShowRewardedVideo(_rewardedAdUnits[0]);
 		});
 	}
