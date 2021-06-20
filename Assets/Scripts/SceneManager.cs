@@ -22,12 +22,8 @@ public class SceneManager : MonoBehaviour
 	private readonly string[] _rewardedAdUnits = { "920b6145fb1546cf8b5cf2ac34638bb7", "30c362fc0e0a46b991d8a543e7bfde7c" };
 	private int interstitialAdIdx = 0;
 	private int rewardedAdUnitsIdx = 0;
+	private int currentRewardAmount = 0;
 #endif
-
-	private void OnConsentDialogLoaded()
-	{
-		MoPub.ShowConsentDialog();
-	}
 
 	private void Start()
 	{
@@ -67,16 +63,42 @@ public class SceneManager : MonoBehaviour
 			rewardedAdUnitsIdx = (rewardedAdUnitsIdx + 1) % _rewardedAdUnits.Length;
 		});
 
-		MoPubManager.OnAdLoadedEvent += (s, f) => Debug.Log($"OnAdLoadedEvent: {s}, {f}");
+		MoPubManager.OnAdLoadedEvent += (s, e) =>
+		{
+			Debug.Log($"OnAdLoadedEvent: {s}, {e}");
+			StatusText.text = $"OnAdLoadedEvent: {s}, {e}";
+		};
+
+		MoPubManager.OnAdFailedEvent += (s, e) =>
+		{
+			Debug.Log($"OnAdFailedEvent: {s}, {e}");
+			StatusText.text = $"OnAdFailedEvent: {s}, {e}";
+		};
+
 		MoPubManager.OnInterstitialLoadedEvent += (placementId) => StatusText.text = $"Interstitial loaded: {placementId}";
-		MoPubManager.OnInterstitialFailedEvent += (placementId, e) => StatusText.text = $"Interstitial failed: {placementId}, {e}";
+		MoPubManager.OnInterstitialFailedEvent += (placementId, e) =>
+		{
+			StatusText.text = $"Interstitial failed: {placementId}, {e}";
+			interstitialAdIdx = (interstitialAdIdx + 1) % _interstitialAdUnits.Length;
+		};
+
 		MoPubManager.OnInterstitialDismissedEvent += (placementId) => StatusText.text = $"Interstitial dismissed: {placementId}";
 		MoPubManager.OnInterstitialShownEvent += (placementId) => StatusText.text = $"Interstitial shown: {placementId}";
 
 		MoPubManager.OnRewardedVideoLoadedEvent += (placementId) => StatusText.text = $"RewardedVideo loaded: {placementId}";
 		MoPubManager.OnRewardedVideoFailedToPlayEvent += (s, e) => StatusText.text = $"RewardedVideo Failed to play: {s}, {e}";
-		MoPubManager.OnRewardedVideoFailedEvent += (s, e) => StatusText.text = $"RewardedVideo Failed: {s}, {e}";
+		MoPubManager.OnRewardedVideoFailedEvent += (s, e) =>
+		{
+			StatusText.text = $"RewardedVideo Failed: {s}, {e}";
+			rewardedAdUnitsIdx = (rewardedAdUnitsIdx + 1) % _rewardedAdUnits.Length;
+		};
 		MoPubManager.OnRewardedVideoShownEvent += (placementId) => StatusText.text = $"RewardedVideo shown: {placementId}";
 		MoPubManager.OnRewardedVideoClosedEvent += (placementId) => StatusText.text = $"RewardedVideo Closed: {placementId}";
+		MoPubManager.OnRewardedVideoReceivedRewardEvent += (adUnitId, label, amount) =>
+		{
+			StatusText.text += $"GET REWARD {label} && {amount}";
+			currentRewardAmount += (int)amount;
+			Counter.text = currentRewardAmount.ToString();
+		};
 	}
 }
