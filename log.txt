@@ -1,0 +1,610 @@
+06-20 12:11:13.372   525  1913 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.DefaultCompany.MopubTest/com.unity3d.player.UnityPlayerActivity bnds=[439,958][640,1270]} from uid 10137
+06-20 12:11:13.503   525   554 I ActivityManager: Start proc 3884:com.DefaultCompany.MopubTest/u0a154 for pre-top-activity {com.DefaultCompany.MopubTest/com.unity3d.player.UnityPlayerActivity}
+06-20 12:11:15.036  3884  3884 D Unity   : CommandLine:  
+06-20 12:11:15.068  3884  3884 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@adb7ff3
+06-20 12:11:15.068  3884  3884 I Unity   : onResume
+06-20 12:11:15.106  3884  3997 D Unity   : SetWindow 0 0xe6d49738
+06-20 12:11:15.107  3884  3997 D Unity   : SetWindow 0 0xe6d49738
+06-20 12:11:15.309   525   552 D ArtManagerInternalImpl: /data/misc/iorapd/com.DefaultCompany.MopubTest/1/com.unity3d.player.UnityPlayerActivity/compiled_traces/compiled_trace.pb doesn't exist
+06-20 12:11:15.322  3884  3884 I Unity   : windowFocusChanged: true
+06-20 12:11:15.332   525   552 I ActivityTaskManager: Displayed com.DefaultCompany.MopubTest/com.unity3d.player.UnityPlayerActivity: +1s933ms
+06-20 12:11:15.471  3884  3997 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+06-20 12:11:15.696  3884  3997 D Unity   : Enabling Unity systrace
+06-20 12:11:15.929  3884  3997 D Unity   : [VFS] Mount /data/app/~~CLunVI_I7_Zxtk00t5H9Vg==/com.DefaultCompany.MopubTest-4AXpAkOe338AND09r-xhJA==/base.apk
+06-20 12:11:16.226  3884  3997 D Unity   : Loading player data from /data/app/~~CLunVI_I7_Zxtk00t5H9Vg==/com.DefaultCompany.MopubTest-4AXpAkOe338AND09r-xhJA==/base.apk/assets/bin/Data/data.unity3d
+06-20 12:11:16.314  3884  3997 I Unity   : SystemInfo CPU = ARMv7 VFPv3 NEON VMH, Cores = 0, Memory = 1980mb
+06-20 12:11:16.325  3884  3997 I Unity   : SystemInfo ARM big.LITTLE configuration: 0 big (mask: 0x0), 0 little (mask: 0x0)
+06-20 12:11:16.327  3884  3997 I Unity   : ApplicationInfo com.DefaultCompany.MopubTest version 0.1 build e08239e3-5872-4a96-9c18-77f0101490fe
+06-20 12:11:16.343  3884  3997 I Unity   : Built from '2019.4/staging' branch, Version '2019.4.28f1 (1381962e9d08)', Build type 'Development', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+06-20 12:11:16.495  3884  3997 D Unity   : Mono path[0] = '/data/app/~~CLunVI_I7_Zxtk00t5H9Vg==/com.DefaultCompany.MopubTest-4AXpAkOe338AND09r-xhJA==/base.apk/assets/bin/Data/Managed'
+06-20 12:11:16.495  3884  3997 D Unity   : Mono config path = 'assets/bin/Data/Managed/etc'
+06-20 12:11:16.543  3884  3997 D Unity   : PlayerConnection initialized from /data/app/~~CLunVI_I7_Zxtk00t5H9Vg==/com.DefaultCompany.MopubTest-4AXpAkOe338AND09r-xhJA==/base.apk/assets/bin/Data (debug = 0)
+06-20 12:11:16.584  3884  3997 D Unity   : PlayerConnection initialized network socket : 0.0.0.0 55057
+06-20 12:11:16.586  3884  3997 D Unity   : PlayerConnection initialized unix socket : Unity-com.DefaultCompany.MopubTest
+06-20 12:11:16.594  3884  3997 D Unity   : Multi-casting "[IP] 10.0.2.16 [Port] 55057 [Flags] 19 [Guid] 267689868 [EditorId] 1814036165 [Version] 1048832 [Id] AndroidPlayer(Google_sdk_gphone_x86_arm@10.0.2.16) [Debug] 1 [PackageName] AndroidPlayer [ProjectName] MopubTest" to [225.0.0.222:54997]...
+06-20 12:11:16.594  3884  3997 D Unity   : Waiting for connection from host on [0.0.0.0:55057]...
+06-20 12:11:17.632  3884  3997 D Unity   : Remaining time:8s
+06-20 12:11:18.479   427  3876 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.DefaultCompany.MopubTest/1/com.unity3d.player.UnityPlayerActivity/raw_traces/1624191078470214100.perfetto_trace.pb
+06-20 12:11:18.676  3884  3997 D Unity   : Remaining time:7s
+06-20 12:11:19.712  3884  3997 D Unity   : Remaining time:6s
+06-20 12:11:20.747  3884  3997 D Unity   : Remaining time:5s
+06-20 12:11:21.784  3884  3997 D Unity   : Remaining time:4s
+06-20 12:11:22.821  3884  3997 D Unity   : Remaining time:3s
+06-20 12:11:23.860  3884  3997 D Unity   : Remaining time:2s
+06-20 12:11:24.896  3884  3997 D Unity   : Remaining time:1s
+06-20 12:11:25.936  3884  3997 D Unity   : Remaining time:0s
+06-20 12:11:26.613  3884  3997 D Unity   : Timed out. Continuing without host connection.
+06-20 12:11:26.613  3884  3997 D Unity   : Started listening to [0.0.0.0:55057]
+06-20 12:11:26.613  3884  3997 D Unity   : Starting managed debugger on port 56868
+06-20 12:11:26.614  3884  3997 D Unity   : Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56868
+06-20 12:11:27.697  3884  3997 D Unity   : [EGL] Attaching window :0xe6d49738
+06-20 12:11:27.698  3884  3997 D Unity   : InitializeScriptEngine OK (0xbd8e2f00)
+06-20 12:11:27.700  3884  3997 D Unity   : PlayerConnection already initialized - listening to [0.0.0.0:55057]
+06-20 12:11:27.824  3884  3997 I chatty  : uid=10154(com.DefaultCompany.MopubTest) UnityMain identical 14 lines
+06-20 12:11:27.914  3884  3997 D Unity   : Loading player data from assets/bin/Data/data.unity3d
+06-20 12:11:27.981  3884  3997 D Unity   : Unable to lookup library path for 'com.mopub.mediation.unityads-3.7.2.0', native render plugin support disabled.
+06-20 12:11:27.983  3884  3997 E Unity   : Unable to find com.mopub.mediation.unityads-3.7.2.0
+06-20 12:11:27.986  3884  3997 D Unity   : PlayerInitEngineNoGraphics OK
+06-20 12:11:27.986  3884  3997 D Unity   : AndroidGraphics::Startup window =  0xe6d49738
+06-20 12:11:27.986  3884  3997 D Unity   : [EGL] Attaching window :0xe6d49738
+06-20 12:11:27.996  3884  3997 D Unity   : [Subsystems] Discovering subsystems at path assets/bin/Data/UnitySubsystems
+06-20 12:11:28.028  3884  3997 D Unity   : [Vulkan init] extensions: count=9
+06-20 12:11:28.028  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+06-20 12:11:28.028  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_android_surface, enabled=1
+06-20 12:11:28.028  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+06-20 12:11:28.029  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+06-20 12:11:28.029  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+06-20 12:11:28.029  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=0
+06-20 12:11:28.030  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+06-20 12:11:28.030  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+06-20 12:11:28.030  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+06-20 12:11:28.040  3884  3997 D Unity   : [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+06-20 12:11:28.041  3884  3997 D Unity   : [Vulkan init] Physical Device 0xacbd3990 [0]: "NVIDIA GeForce GTX 1080" deviceType=3 vendorID=10de deviceID=1b80
+06-20 12:11:28.041  3884  3997 D Unity   : Vulkan detection: 2
+06-20 12:11:28.041  3884  3997 D Unity   : [Vulkan init] extensions: count=9
+06-20 12:11:28.042  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+06-20 12:11:28.042  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_android_surface, enabled=1
+06-20 12:11:28.043  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+06-20 12:11:28.043  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+06-20 12:11:28.043  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+06-20 12:11:28.043  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=0
+06-20 12:11:28.043  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+06-20 12:11:28.043  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+06-20 12:11:28.043  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+06-20 12:11:28.054  3884  3997 D Unity   : [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+06-20 12:11:28.056  3884  3997 D Unity   : [Vulkan init] Physical Device 0xacbd3a10 [0]: "NVIDIA GeForce GTX 1080" deviceType=3 vendorID=10de deviceID=1b80
+06-20 12:11:28.056  3884  3997 D Unity   : [Vulkan init] Selected physical device 0xacbd3a10
+06-20 12:11:28.056  3884  3997 D Unity   : [Vulkan init] Graphics queue count=1
+06-20 12:11:28.059  3884  3997 I chatty  : uid=10154(com.DefaultCompany.MopubTest) UnityMain identical 2 lines
+06-20 12:11:28.060  3884  3997 D Unity   : [Vulkan init] extensions: count=18
+06-20 12:11:28.061  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_incremental_present, enabled=0
+06-20 12:11:28.061  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_GOOGLE_display_timing, enabled=0
+06-20 12:11:28.061  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+06-20 12:11:28.061  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+06-20 12:11:28.061  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_fd, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_ANDROID_external_memory_android_hardware_buffer, enabled=0
+06-20 12:11:28.063  3884  3997 D Unity   : [Vulkan init] extensions: name=VK_EXT_queue_family_foreign, enabled=0
+06-20 12:11:28.064  3884  3997 I chatty  : uid=10154(com.DefaultCompany.MopubTest) UnityMain identical 4 lines
+06-20 12:11:28.140  3884  3997 D Unity   : Vulkan API version 1.1.0 (1.1.0 supported by driver)
+06-20 12:11:28.140  3884  3997 D Unity   : Vulkan vendor=[NVIDIA] id=[10de]
+06-20 12:11:28.140  3884  3997 D Unity   : Vulkan renderer=[NVIDIA GeForce GTX 1080] id=[1b80]
+06-20 12:11:28.140  3884  3997 D Unity   : Vulkan device type 3
+06-20 12:11:28.140  3884  3997 D Unity   : Vulkan driverversion=[0x7486c000] uint=[1954988032]
+06-20 12:11:28.144  3884  3997 D Unity   : [vulkan] ASTC HDR support: 0
+06-20 12:11:28.210  3884  3997 D Unity   : Vulkan PSO: Cache data successfully loaded [size=86755,path=/storage/emulated/0/Android/data/com.DefaultCompany.MopubTest/cache/vulkan_pso_cache.bin]
+06-20 12:11:28.226  3884  3997 D Unity   : [EGL] Attaching window :0x0
+06-20 12:11:28.226  3884  3997 D Unity   : AndroidDisplayManagerVulkan::AttachWindow(0xe6d49738, 0)
+06-20 12:11:28.229  3884  3997 D Unity   : InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+06-20 12:11:28.362  3884  3997 D Unity   : AndroidDisplayManagerVulkan::AttachWindow(0xe6d49738, 0)
+06-20 12:11:28.362  3884  3997 D Unity   : Initialize engine version: 2019.4.28f1 (1381962e9d08)
+06-20 12:11:28.663  3884  3997 D Unity   : Begin MonoManager ReloadAssembly
+06-20 12:11:28.675  3884  3997 D Unity   : Script Patching: Patch files are not available, '/storage/emulated/0/Android/data/com.DefaultCompany.MopubTest/cache/ScriptOnly/2019.4.28f1/mono/patch.config' is missing.
+06-20 12:11:30.343  3884  3997 D Unity   : - Completed reload, in  1.679 seconds
+06-20 12:11:30.666  3884  3997 D Unity   : PlayerInitEngineGraphics OK
+06-20 12:11:30.672  3884  3997 D Unity   : Found 18 native sensors
+06-20 12:11:30.679  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:11:30.681  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:11:30.698  3884  3997 D Unity   : SetWindow 0 0xe6d49738
+06-20 12:11:30.699  3884  3997 D Unity   : AndroidDisplayManagerVulkan::AttachWindow(0xe6d49738, 0)
+06-20 12:11:30.701  3884  3997 D Unity   : InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+06-20 12:11:33.320  3884  3997 D Unity   : UnloadTime: 27.948300 ms
+06-20 12:11:33.327  3884  3997 D Unity   : UUID: f0ea818657bf4964 => c0cf6c0a6b658d3105ff3efd5628fab4
+06-20 12:11:34.746  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:11:34.755  3884  3997 D Unity   : Choreographer available: Enabling VSYNC timing
+06-20 12:11:41.751  3884  3997 I Unity   : [MoPub-Unity] [RequestInterstitialAd] Attempting to load ad
+06-20 12:11:41.751  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:41.751  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:41.751  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:41.751  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:41.751  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:41.751  3884  3997 I Unity   : MoPub:RequestInterstitialAd (string,string,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:333)
+06-20 12:11:41.751  3884  3997 I Unity   : SceneManager:<Start>b__14_2 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:46)
+06-20 12:11:41.751  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:41.751  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:41.751  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTes
+06-20 12:11:41.786  3884  3997 E Unity   : FATAL ERROR: MoPub SDK has not been successfully initialized.
+06-20 12:11:41.786  3884  3997 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:41.786  3884  3997 E Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:41.786  3884  3997 E Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+06-20 12:11:41.786  3884  3997 E Unity   : UnityEngine.Debug:LogError (object)
+06-20 12:11:41.786  3884  3997 E Unity   : MoPub:ValidateInit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1101)
+06-20 12:11:41.786  3884  3997 E Unity   : MoPub/AdUnitManager:GetAdUnit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1146)
+06-20 12:11:41.786  3884  3997 E Unity   : MoPub:RequestInterstitialAd (string,string,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:334)
+06-20 12:11:41.786  3884  3997 E Unity   : SceneManager:<Start>b__14_2 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:46)
+06-20 12:11:41.786  3884  3997 E Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:41.786  3884  3997 E Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:5
+06-20 12:11:42.155  3884  3997 D Unity   : Uploading Crash Report
+06-20 12:11:42.157  3884  3997 E Unity   : Exception: 0xDEADDEAD
+06-20 12:11:42.157  3884  3997 E Unity   :   at MoPub.ValidateInit (System.String message) [0x0001f] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1102 
+06-20 12:11:42.157  3884  3997 E Unity   :   at MoPub+AdUnitManager.GetAdUnit (System.String adUnitId) [0x00001] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1146 
+06-20 12:11:42.157  3884  3997 E Unity   :   at MoPub.RequestInterstitialAd (System.String adUnitId, System.String keywords, System.String userDataKeywords) [0x00016] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:334 
+06-20 12:11:42.157  3884  3997 E Unity   :   at SceneManager.<Start>b__14_2 () [0x00001] in E:\repo\MopubTest\Assets\Scripts\SceneManager.cs:46 
+06-20 12:11:42.157  3884  3997 E Unity   :   at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166 
+06-20 12:11:42.157  3884  3997 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58 
+06-20 12:11:42.157  3884  3997 E Unity   :   at UnityEngine.UI.Button.Press () [0x00027] in E:\repo\MopubTest\Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Button.cs:68 
+06-20 12:11:42.157  3884  3997 E Unity   :   at UnityEngine.UI.Button.OnPointerClick (
+06-20 12:11:42.790  3884  3997 I Unity   : [MoPub-Unity] [RequestRewardedVideo] Attempting to load ad
+06-20 12:11:42.790  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:42.790  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:42.790  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:42.790  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:42.790  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:42.790  3884  3997 I Unity   : MoPub:RequestRewardedVideo (string,System.Collections.Generic.List`1<MoPub/LocalMediationSetting>,string,string,double,double,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:396)
+06-20 12:11:42.790  3884  3997 I Unity   : SceneManager:<Start>b__14_3 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:51)
+06-20 12:11:42.790  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:42.790  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/
+06-20 12:11:42.795  3884  3997 E Unity   : FATAL ERROR: MoPub SDK has not been successfully initialized.
+06-20 12:11:42.795  3884  3997 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:42.795  3884  3997 E Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:42.795  3884  3997 E Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+06-20 12:11:42.795  3884  3997 E Unity   : UnityEngine.Debug:LogError (object)
+06-20 12:11:42.795  3884  3997 E Unity   : MoPub:ValidateInit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1101)
+06-20 12:11:42.795  3884  3997 E Unity   : MoPub/AdUnitManager:GetAdUnit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1146)
+06-20 12:11:42.795  3884  3997 E Unity   : MoPub:RequestRewardedVideo (string,System.Collections.Generic.List`1<MoPub/LocalMediationSetting>,string,string,double,double,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:397)
+06-20 12:11:42.795  3884  3997 E Unity   : SceneManager:<Start>b__14_3 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:51)
+06-20 12:11:42.795  3884  3997 E Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:42.795  3884  3997 E Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/b
+06-20 12:11:42.841  3884  3997 D Unity   : Uploading Crash Report
+06-20 12:11:42.843  3884  3997 E Unity   : Exception: 0xDEADDEAD
+06-20 12:11:42.843  3884  3997 E Unity   :   at MoPub.ValidateInit (System.String message) [0x0001f] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1102 
+06-20 12:11:42.843  3884  3997 E Unity   :   at MoPub+AdUnitManager.GetAdUnit (System.String adUnitId) [0x00001] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1146 
+06-20 12:11:42.843  3884  3997 E Unity   :   at MoPub.RequestRewardedVideo (System.String adUnitId, System.Collections.Generic.List`1[T] mediationSettings, System.String keywords, System.String userDataKeywords, System.Double latitude, System.Double longitude, System.String customerId) [0x00016] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:397 
+06-20 12:11:42.843  3884  3997 E Unity   :   at SceneManager.<Start>b__14_3 () [0x00001] in E:\repo\MopubTest\Assets\Scripts\SceneManager.cs:51 
+06-20 12:11:42.843  3884  3997 E Unity   :   at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166 
+06-20 12:11:42.843  3884  3997 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58 
+06-20 12:11:42.843  3884  3997 E Unity   :   at UnityEngine.UI.Button.Press () [0x00027] in E:\
+06-20 12:11:43.861  3884  3997 I Unity   : [MoPub-Unity] [ShowInterstitialAd] Attempting to show ad
+06-20 12:11:43.861  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:43.861  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:43.861  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:43.861  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:43.861  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:43.861  3884  3997 I Unity   : MoPub:ShowInterstitialAd (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:345)
+06-20 12:11:43.861  3884  3997 I Unity   : SceneManager:<Start>b__14_4 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:56)
+06-20 12:11:43.861  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:43.861  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:43.861  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTest/Library/PackageCac
+06-20 12:11:43.869  3884  3997 E Unity   : FATAL ERROR: MoPub SDK has not been successfully initialized.
+06-20 12:11:43.869  3884  3997 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:43.869  3884  3997 E Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:43.869  3884  3997 E Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+06-20 12:11:43.869  3884  3997 E Unity   : UnityEngine.Debug:LogError (object)
+06-20 12:11:43.869  3884  3997 E Unity   : MoPub:ValidateInit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1101)
+06-20 12:11:43.869  3884  3997 E Unity   : MoPub/AdUnitManager:GetAdUnit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1146)
+06-20 12:11:43.869  3884  3997 E Unity   : MoPub:ShowInterstitialAd (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:346)
+06-20 12:11:43.869  3884  3997 E Unity   : SceneManager:<Start>b__14_4 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:56)
+06-20 12:11:43.869  3884  3997 E Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:43.869  3884  3997 E Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:43.869  3884  3997 E Unity   : UnityEngine.UI
+06-20 12:11:43.943  3884  3997 D Unity   : Uploading Crash Report
+06-20 12:11:43.947  3884  3997 E Unity   : Exception: 0xDEADDEAD
+06-20 12:11:43.947  3884  3997 E Unity   :   at MoPub.ValidateInit (System.String message) [0x0001f] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1102 
+06-20 12:11:43.947  3884  3997 E Unity   :   at MoPub+AdUnitManager.GetAdUnit (System.String adUnitId) [0x00001] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1146 
+06-20 12:11:43.947  3884  3997 E Unity   :   at MoPub.ShowInterstitialAd (System.String adUnitId) [0x00016] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:346 
+06-20 12:11:43.947  3884  3997 E Unity   :   at SceneManager.<Start>b__14_4 () [0x00001] in E:\repo\MopubTest\Assets\Scripts\SceneManager.cs:56 
+06-20 12:11:43.947  3884  3997 E Unity   :   at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166 
+06-20 12:11:43.947  3884  3997 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58 
+06-20 12:11:43.947  3884  3997 E Unity   :   at UnityEngine.UI.Button.Press () [0x00027] in E:\repo\MopubTest\Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Button.cs:68 
+06-20 12:11:43.947  3884  3997 E Unity   :   at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x000
+06-20 12:11:46.376  3884  3997 I Unity   : [MoPub-Unity] [ShowInterstitialAd] Attempting to show ad
+06-20 12:11:46.376  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:46.376  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:46.376  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:46.376  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:46.376  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:46.376  3884  3997 I Unity   : MoPub:ShowInterstitialAd (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:345)
+06-20 12:11:46.376  3884  3997 I Unity   : SceneManager:<Start>b__14_4 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:56)
+06-20 12:11:46.376  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:46.376  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:46.376  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTest/Library/PackageCac
+06-20 12:11:46.385  3884  3997 E Unity   : FATAL ERROR: MoPub SDK has not been successfully initialized.
+06-20 12:11:46.385  3884  3997 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:46.385  3884  3997 E Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:46.385  3884  3997 E Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+06-20 12:11:46.385  3884  3997 E Unity   : UnityEngine.Debug:LogError (object)
+06-20 12:11:46.385  3884  3997 E Unity   : MoPub:ValidateInit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1101)
+06-20 12:11:46.385  3884  3997 E Unity   : MoPub/AdUnitManager:GetAdUnit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1146)
+06-20 12:11:46.385  3884  3997 E Unity   : MoPub:ShowInterstitialAd (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:346)
+06-20 12:11:46.385  3884  3997 E Unity   : SceneManager:<Start>b__14_4 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:56)
+06-20 12:11:46.385  3884  3997 E Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:46.385  3884  3997 E Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:46.385  3884  3997 E Unity   : UnityEngine.UI
+06-20 12:11:46.409  3884  3997 E Unity   : Exception: 0xDEADDEAD
+06-20 12:11:46.409  3884  3997 E Unity   :   at MoPub.ValidateInit (System.String message) [0x0001f] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1102 
+06-20 12:11:46.409  3884  3997 E Unity   :   at MoPub+AdUnitManager.GetAdUnit (System.String adUnitId) [0x00001] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1146 
+06-20 12:11:46.409  3884  3997 E Unity   :   at MoPub.ShowInterstitialAd (System.String adUnitId) [0x00016] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:346 
+06-20 12:11:46.409  3884  3997 E Unity   :   at SceneManager.<Start>b__14_4 () [0x00001] in E:\repo\MopubTest\Assets\Scripts\SceneManager.cs:56 
+06-20 12:11:46.409  3884  3997 E Unity   :   at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166 
+06-20 12:11:46.409  3884  3997 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58 
+06-20 12:11:46.409  3884  3997 E Unity   :   at UnityEngine.UI.Button.Press () [0x00027] in E:\repo\MopubTest\Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Button.cs:68 
+06-20 12:11:46.409  3884  3997 E Unity   :   at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x000
+06-20 12:11:47.243  3884  3997 I Unity   : [MoPub-Unity] [ShowRewardedVideo] Attempting to show ad
+06-20 12:11:47.243  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:47.243  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:47.243  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:47.243  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:47.243  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:47.243  3884  3997 I Unity   : MoPub:ShowRewardedVideo (string,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:410)
+06-20 12:11:47.243  3884  3997 I Unity   : SceneManager:<Start>b__14_5 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:62)
+06-20 12:11:47.243  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:47.243  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:47.243  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTest/Library/Packa
+06-20 12:11:47.245  3884  3997 E Unity   : FATAL ERROR: MoPub SDK has not been successfully initialized.
+06-20 12:11:47.245  3884  3997 E Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:47.245  3884  3997 E Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:47.245  3884  3997 E Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+06-20 12:11:47.245  3884  3997 E Unity   : UnityEngine.Debug:LogError (object)
+06-20 12:11:47.245  3884  3997 E Unity   : MoPub:ValidateInit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1101)
+06-20 12:11:47.245  3884  3997 E Unity   : MoPub/AdUnitManager:GetAdUnit (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1146)
+06-20 12:11:47.245  3884  3997 E Unity   : MoPub:ShowRewardedVideo (string,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:411)
+06-20 12:11:47.245  3884  3997 E Unity   : SceneManager:<Start>b__14_5 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:62)
+06-20 12:11:47.245  3884  3997 E Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:47.245  3884  3997 E Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:47.245  3884  3997 E Unity   : UnityEng
+06-20 12:11:47.260  3884  3997 D Unity   : Uploading Crash Report
+06-20 12:11:47.262  3884  3997 E Unity   : Exception: 0xDEADDEAD
+06-20 12:11:47.262  3884  3997 E Unity   :   at MoPub.ValidateInit (System.String message) [0x0001f] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1102 
+06-20 12:11:47.262  3884  3997 E Unity   :   at MoPub+AdUnitManager.GetAdUnit (System.String adUnitId) [0x00001] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:1146 
+06-20 12:11:47.262  3884  3997 E Unity   :   at MoPub.ShowRewardedVideo (System.String adUnitId, System.String customData) [0x00016] in E:\repo\MopubTest\Assets\MoPub\Scripts\MoPub.cs:411 
+06-20 12:11:47.262  3884  3997 E Unity   :   at SceneManager.<Start>b__14_5 () [0x00001] in E:\repo\MopubTest\Assets\Scripts\SceneManager.cs:62 
+06-20 12:11:47.262  3884  3997 E Unity   :   at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166 
+06-20 12:11:47.262  3884  3997 E Unity   :   at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58 
+06-20 12:11:47.262  3884  3997 E Unity   :   at UnityEngine.UI.Button.Press () [0x00027] in E:\repo\MopubTest\Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Button.cs:68 
+06-20 12:11:47.262  3884  3997 E Unity   :   at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEv
+06-20 12:11:49.619  3884  3997 I Unity   : [MoPub-Unity] [InitializeSdk] SDK initialization started
+06-20 12:11:49.619  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:49.619  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:49.619  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:49.619  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:49.619  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:49.619  3884  3997 I Unity   : MoPub:InitializeSdk (MoPub/SdkConfiguration) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:57)
+06-20 12:11:49.619  3884  3997 I Unity   : SceneManager:<Start>b__14_1 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:38)
+06-20 12:11:49.619  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:49.619  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:49.619  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTest/Library/
+06-20 12:11:50.081  3884  3997 I Unity   : 1 Banner AdUnits loaded for plugins:
+06-20 12:11:50.081  3884  3997 I Unity   : b195f8dd8ded45fe847ad89ed1d016da
+06-20 12:11:50.081  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:50.081  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:50.081  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:50.081  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:50.081  3884  3997 I Unity   : MoPub:LoadPluginsForAdUnits (string[],string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1083)
+06-20 12:11:50.081  3884  3997 I Unity   : MoPub:LoadBannerPluginsForAdUnits (string[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:73)
+06-20 12:11:50.081  3884  3997 I Unity   : SceneManager:<Start>b__14_1 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:39)
+06-20 12:11:50.081  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:50.081  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:50.081  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTe
+06-20 12:11:50.122  3884  3997 I Unity   : 2 Interstitial AdUnits loaded for plugins:
+06-20 12:11:50.122  3884  3997 I Unity   : 24534e1901884e398f1253216226017e, bb45288e5142444aae022b55a6035d0c
+06-20 12:11:50.122  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:50.122  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:50.122  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:50.122  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:50.122  3884  3997 I Unity   : MoPub:LoadPluginsForAdUnits (string[],string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1083)
+06-20 12:11:50.122  3884  3997 I Unity   : MoPub:LoadInterstitialPluginsForAdUnits (string[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:83)
+06-20 12:11:50.122  3884  3997 I Unity   : SceneManager:<Start>b__14_1 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:40)
+06-20 12:11:50.122  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:50.122  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:50.122  3884  3997 I Unity   : Unit
+06-20 12:11:50.173  3884  3997 I Unity   : 2 RewardedVideo AdUnits loaded for plugins:
+06-20 12:11:50.173  3884  3997 I Unity   : 920b6145fb1546cf8b5cf2ac34638bb7, 30c362fc0e0a46b991d8a543e7bfde7c
+06-20 12:11:50.173  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:50.173  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:50.173  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:50.173  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:50.173  3884  3997 I Unity   : MoPub:LoadPluginsForAdUnits (string[],string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:1083)
+06-20 12:11:50.173  3884  3997 I Unity   : MoPub:LoadRewardedVideoPluginsForAdUnits (string[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:93)
+06-20 12:11:50.173  3884  3997 I Unity   : SceneManager:<Start>b__14_1 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:41)
+06-20 12:11:50.173  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:50.173  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:50.173  3884  3997 I Unity   : Un
+06-20 12:11:50.478  3884  4534 D UnityAds: com.unity3d.services.core.misc.Utilities.writeFile() (line:127) :: Wrote file: /data/user/0/com.DefaultCompany.MopubTest/files/UnityAdsStorage-public-data.json
+06-20 12:11:50.481  3884  4534 D UnityAds: com.unity3d.services.core.device.Storage.sendEvent() (line:86) :: Couldn't send storage event to WebApp
+06-20 12:11:50.486  3884  4534 D UnityAds: com.unity3d.services.core.misc.Utilities.writeFile() (line:127) :: Wrote file: /data/user/0/com.DefaultCompany.MopubTest/files/UnityAdsStorage-public-data.json
+06-20 12:11:50.486  3884  4534 D UnityAds: com.unity3d.services.core.device.Storage.sendEvent() (line:86) :: Couldn't send storage event to WebApp
+06-20 12:11:50.486  3884  4534 D UnityAds: com.unity3d.services.ads.UnityAdsImplementation.initialize() (line:72) :: ENTERED METHOD
+06-20 12:11:50.487  3884  4534 D UnityAds: com.unity3d.services.UnityServices.initialize() (line:36) :: ENTERED METHOD
+06-20 12:11:50.496  3884  4534 I UnityAds: com.unity3d.services.UnityServices.initialize() (line:131) :: Initializing Unity Services 3.7.2 (3720) with game id 4178177 in production mode
+06-20 12:11:50.593  3884  4534 I UnityAds: com.unity3d.services.UnityServices.initialize() (line:146) :: Unity Services environment check OK
+06-20 12:11:50.678  3884  4539 I UnityAds: com.unity3d.services.core.configuration.InitializeThread$InitializeStateConfig.execute() (line:289) :: Unity Ads init: load configuration from https://config.unityads.unity3d.com/webview/3.7.2/release/config.json
+06-20 12:11:50.813  3884  4539 I UnityAds: com.unity3d.services.core.configuration.InitializeThread$InitializeStateLoadCache.execute() (line:346) :: Unity Ads init: webapp loaded from local cache
+06-20 12:11:51.389  3884  3884 I MoPub   : UnityAdsAdapterConfiguration: Adapter version 3.7.2.0, SDK version 3.7.2
+06-20 12:11:51.610  3884  3997 I Unity   : [MoPub-Unity] [EmitSdkInitializedEvent] SDK initialized and ready to display ads.  Log Level: Info
+06-20 12:11:51.610  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:51.610  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:51.610  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:51.610  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:51.610  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:51.610  3884  3997 I Unity   : MoPubManager:EmitSdkInitializedEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:316)
+06-20 12:11:51.610  3884  3997 I Unity   :  
+06-20 12:11:51.610  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:11:51.610  3884  3997 I Unity   : 
+06-20 12:11:51.653  3884  3997 I Unity   : SceneManager: Initialized SDK. b195f8dd8ded45fe847ad89ed1d016da
+06-20 12:11:51.653  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:51.653  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:51.653  3884  3997 I Unity   : UnityEngine.Logger:Log (UnityEngine.LogType,object)
+06-20 12:11:51.653  3884  3997 I Unity   : UnityEngine.Debug:Log (object)
+06-20 12:11:51.653  3884  3997 I Unity   : SceneManager:<Start>b__14_0 (string) (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:32)
+06-20 12:11:51.653  3884  3997 I Unity   : MoPubManager:EmitSdkInitializedEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:318)
+06-20 12:11:51.653  3884  3997 I Unity   :  
+06-20 12:11:51.653  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:11:51.653  3884  3997 I Unity   : 
+06-20 12:11:52.005  3884  4560 I UnityAds: com.unity3d.services.core.api.Sdk.logInfo() (line:84) :: mediation detection is:{"UnityEngine":true}
+06-20 12:11:52.039  3884  4560 I UnityAds: com.unity3d.services.core.api.Sdk.logInfo() (line:84) :: Requesting configuration from https://publisher-config.unityads.unity3d.com/games/4178177/configuration?deviceMake=Google&screenDensity=440&screenSize=268435810&idfi=e1328524-1759-4de7-8376-442f4e24365c&advertisingTrackingId=5bf704b9-10d2-4c98-82aa-2096d6350887&limitAdTracking=false&connectionType=wifi&screenHeight=2072&screenWidth=1080&bundleId=com.DefaultCompany.MopubTest&encrypted=false&rooted=false&platform=android&sdkVersion=3720&osVersion=11&deviceModel=sdk_gphone_x86_arm&language=en_US&test=false&analyticsUserId=7d3dae1f48e151a3f92f7d8d481dece7&analyticsSessionId=4538687699441589333&first=false
+06-20 12:11:52.240  3884  4560 I UnityAds: com.unity3d.services.core.api.Sdk.logInfo() (line:84) :: Received configuration for token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZyI6ImIvRmNYY214RXJGeTd2NkJSYmVmRnVDSzBERkg3eml4TlF1SWcwMzFUSm1xN0ovWnpTTDBOU293ejJpRUZxdVVpWVlWdGc9PSIsImFwcExldmVsQ29wcGEiOmZhbHNlLCJhdHQiOjAsImF1YyI6MTYwLCJhenAiOiI4NzNiMTM3NC1kZmE0LTQxOGMtYjI4NS05YTRjZjA3MjVhMmIiLCJjYWxjdWxhdGVkQ29wcGEiOmZhbHNlLCJjb25zZW50IjpmYWxzZSwiY3BpIjoyMTksImNyZWF0ZWQiOjE2MjQxNTM3MTUwMDAsImR0IjowLCJleHAiOjE2MjU0MDA3MTQsImlhcCI6MTIxLCJpYXQiOjE2MjQxOTExMTQsImlnIjoia2x4UzZ5SGRTekJicFlka2gzbXF6Wmd6V1FhbC94Ty96R0RrY29kOFd4RHlvQzJQVDdHYnAwMHRzV01NcWVTMFRMbVdqdz09IiwiaXNzIjoiYWRzLWdhbWUtY29uZmlndXJhdGlvbi51bml0eWFkcy51bml0eTNkLmNvbSIsImxlZ2FsVGVycml0b3J5IjowLCJsdHYiOjIwMSwicHJvIjo3NSwicHJveGllZCI6ZmFsc2UsInN1YiI6IlFHYk5FcWVHTjlqYWxLaHVOcndKcFNkWjM4OGdsRTZha2pYS1lEV2dvMVFLTGluTW83SlltNC9kRDVKQU1UWUF1NVJYVmc9PSIsInVzZXJBZ2VHYXRlUmVzdWx0IjpmYWxzZSwidXNlckxldmVsQ29wcGEiOnRydWUsInhwciI6Njh9.n4ZpAj38Pn8L_nttMyZxs-C5Givfiq_VdsJpbiEJ9OU (A/B group 8)
+06-20 12:11:52.441  3884  4560 I UnityAds: com.unity3d.services.core.api.Sdk.logInfo() (line:84) :: Requesting ad plan from https://auction.unityads.unity3d.com/v4/test/games/4178177/requests?idfi=e1328524-1759-4de7-8376-442f4e24365c&advertisingTrackingId=5bf704b9-10d2-4c98-82aa-2096d6350887&limitAdTracking=false&deviceModel=sdk_gphone_x86_arm&platform=android&sdkVersion=3720&stores=google&deviceMake=Google&screenSize=268435810&screenDensity=440&apiLevel=30&test=true&screenWidth=1080&screenHeight=2072&connectionType=wifi&networkType=0
+06-20 12:11:52.689  3884  3997 I Unity   : [MoPub-Unity] [RequestInterstitialAd] Attempting to load ad
+06-20 12:11:52.689  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:52.689  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:52.689  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:52.689  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:52.689  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:52.689  3884  3997 I Unity   : MoPub:RequestInterstitialAd (string,string,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:333)
+06-20 12:11:52.689  3884  3997 I Unity   : SceneManager:<Start>b__14_2 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:46)
+06-20 12:11:52.689  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:52.689  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:52.689  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTes
+06-20 12:11:53.100  3884  4560 I UnityAds: com.unity3d.services.core.api.Sdk.logInfo() (line:84) :: AdPlan received with 1 campaigns and refreshDelay 3600
+06-20 12:11:53.620  3884  4560 I UnityAds: com.unity3d.services.core.api.Sdk.logInfo() (line:84) :: Webview started using the latest version
+06-20 12:11:53.661  3884  3997 I Unity   : [MoPub-Unity] [EmitInterstitialLoadedEvent] Ad loaded
+06-20 12:11:53.661  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:53.661  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:53.661  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:53.661  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:53.661  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:53.661  3884  3997 I Unity   : MoPubManager:EmitInterstitialLoadedEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:452)
+06-20 12:11:53.661  3884  3997 I Unity   :  
+06-20 12:11:53.661  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:11:53.661  3884  3997 I Unity   : 
+06-20 12:11:54.257  3884  3997 I Unity   : [MoPub-Unity] [RequestRewardedVideo] Attempting to load ad
+06-20 12:11:54.257  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:54.257  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:54.257  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:54.257  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:54.257  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:54.257  3884  3997 I Unity   : MoPub:RequestRewardedVideo (string,System.Collections.Generic.List`1<MoPub/LocalMediationSetting>,string,string,double,double,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:396)
+06-20 12:11:54.257  3884  3997 I Unity   : SceneManager:<Start>b__14_3 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:51)
+06-20 12:11:54.257  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:54.257  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/
+06-20 12:11:54.625  3884  3997 I Unity   : [MoPub-Unity] [EmitRewardedVideoLoadedEvent] Ad loaded
+06-20 12:11:54.625  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:54.625  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:54.625  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:54.625  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:54.625  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:54.625  3884  3997 I Unity   : MoPubManager:EmitRewardedVideoLoadedEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:522)
+06-20 12:11:54.625  3884  3997 I Unity   :  
+06-20 12:11:54.625  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:11:54.625  3884  3997 I Unity   : 
+06-20 12:11:56.141  3884  3997 I Unity   : [MoPub-Unity] [ShowInterstitialAd] Attempting to show ad
+06-20 12:11:56.141  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:56.141  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:56.141  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:56.141  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:56.141  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:56.141  3884  3997 I Unity   : MoPub:ShowInterstitialAd (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:345)
+06-20 12:11:56.141  3884  3997 I Unity   : SceneManager:<Start>b__14_4 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:56)
+06-20 12:11:56.141  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:56.141  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:56.141  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTest/Library/PackageCac
+06-20 12:11:56.184  3884  3884 I Unity   : onPause
+06-20 12:11:56.188  3884  3997 D Unity   : Uploading Crash Report
+06-20 12:11:56.266  3884  3997 D Unity   : Vulkan PSO: data extracted [new size=86755, old size=86755, incomplete=0]
+06-20 12:11:56.266  3884  3997 D Unity   : Vulkan PSO: Pipeline cache has not changed skipping save handle[b502e580]
+06-20 12:11:56.313  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:11:56.371  3884  3884 D Unity   : onActivityResumed: com.mopub.mobileads.MoPubFullscreenActivity@e4b92
+06-20 12:11:56.644  3884  3884 I Unity   : windowFocusChanged: false
+06-20 12:11:57.157  3884  3884 D Unity   : PersistentUnitySurface.preserveContent: android.view.SurfaceView{d9f0b7 VFE...... .F....I. 0,0-1080,2340 #7f0800e1 app:id/unitySurfaceView aid=1073741824}
+06-20 12:11:57.158  3884  3884 D Unity   : PersistentUnitySurface.PlaceholderView.Copy: android.view.SurfaceView{d9f0b7 VFE...... .F....I. 0,0-1080,2340 #7f0800e1 app:id/unitySurfaceView aid=1073741824}
+06-20 12:11:57.179  3884  3997 D Unity   : SetWindow 0 0x0
+06-20 12:11:57.194  3884  3884 D Unity   : onPixelCopyFinished: 0
+06-20 12:11:57.698  3884  3884 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@adb7ff3
+06-20 12:11:57.698  3884  3884 I Unity   : onResume
+06-20 12:11:57.712  3884  3997 D Unity   : SetWindow 0 0xe6d6a828
+06-20 12:11:57.712  3884  3997 D Unity   : SetWindow 0 0xe6d6a828
+06-20 12:11:58.121  3884  3884 I Unity   : windowFocusChanged: true
+06-20 12:11:58.122  3884  3997 D Unity   : AndroidDisplayManagerVulkan::AttachWindow(0xe6d6a828, 0)
+06-20 12:11:58.126  3884  3997 D Unity   : InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+06-20 12:11:58.281  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:11:58.286  3884  3997 D Unity   : Choreographer available: Enabling VSYNC timing
+06-20 12:11:58.324  3884  3997 I Unity   : [MoPub-Unity] [EmitInterstitialShownEvent] Ad shown
+06-20 12:11:58.324  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:58.324  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:58.324  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:58.324  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:58.324  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:58.324  3884  3997 I Unity   : MoPubManager:EmitInterstitialShownEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:497)
+06-20 12:11:58.324  3884  3997 I Unity   :  
+06-20 12:11:58.324  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:11:58.324  3884  3997 I Unity   : 
+06-20 12:11:59.354  3884  3997 I Unity   : [MoPub-Unity] [ShowRewardedVideo] Attempting to show ad
+06-20 12:11:59.354  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:11:59.354  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:11:59.354  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:11:59.354  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:11:59.354  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:11:59.354  3884  3997 I Unity   : MoPub:ShowRewardedVideo (string,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:410)
+06-20 12:11:59.354  3884  3997 I Unity   : SceneManager:<Start>b__14_5 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:62)
+06-20 12:11:59.354  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:11:59.354  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:11:59.354  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTest/Library/Packa
+06-20 12:11:59.368  3884  3884 I Unity   : onPause
+06-20 12:11:59.382  3884  3997 D Unity   : Vulkan PSO: data extracted [new size=86755, old size=86755, incomplete=0]
+06-20 12:11:59.382  3884  3997 D Unity   : Vulkan PSO: Pipeline cache has not changed skipping save handle[b502e580]
+06-20 12:11:59.457  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:11:59.866  3884  3884 D Unity   : onActivityResumed: com.mopub.mobileads.MoPubFullscreenActivity@e8cd15b
+06-20 12:12:00.176  3884  3884 I Unity   : windowFocusChanged: false
+06-20 12:12:01.033  3884  3884 D Unity   : PersistentUnitySurface.preserveContent: android.view.SurfaceView{d9f0b7 VFE...... .F....I. 0,0-1080,2340 #7f0800e1 app:id/unitySurfaceView aid=1073741824}
+06-20 12:12:01.033  3884  3884 D Unity   : PlacerHoler view already exists
+06-20 12:12:01.034  3884  3997 D Unity   : SetWindow 0 0x0
+06-20 12:12:33.420  3884  3884 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@adb7ff3
+06-20 12:12:33.420  3884  3884 I Unity   : onResume
+06-20 12:12:33.435  3884  3997 D Unity   : SetWindow 0 0xe6d6da88
+06-20 12:12:33.436  3884  3997 D Unity   : SetWindow 0 0xe6d6da88
+06-20 12:12:33.594  3884  3884 I Unity   : windowFocusChanged: true
+06-20 12:12:33.594  3884  3997 D Unity   : AndroidDisplayManagerVulkan::AttachWindow(0xe6d6da88, 0)
+06-20 12:12:33.598  3884  3997 D Unity   : InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+06-20 12:12:33.757  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:12:33.761  3884  3997 D Unity   : Choreographer available: Enabling VSYNC timing
+06-20 12:12:33.827  3884  3997 I Unity   : [MoPub-Unity] [EmitRewardedVideoShownEvent] Ad shown
+06-20 12:12:33.827  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:33.827  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:33.827  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:33.827  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:33.827  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:33.827  3884  3997 I Unity   : MoPubManager:EmitRewardedVideoShownEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:556)
+06-20 12:12:33.827  3884  3997 I Unity   :  
+06-20 12:12:33.827  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:12:33.827  3884  3997 I Unity   : 
+06-20 12:12:37.596  3884  3997 I Unity   : [MoPub-Unity] [RequestRewardedVideo] Attempting to load ad
+06-20 12:12:37.596  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:37.596  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:37.596  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:37.596  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:37.596  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:37.596  3884  3997 I Unity   : MoPub:RequestRewardedVideo (string,System.Collections.Generic.List`1<MoPub/LocalMediationSetting>,string,string,double,double,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:396)
+06-20 12:12:37.596  3884  3997 I Unity   : SceneManager:<Start>b__14_3 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:51)
+06-20 12:12:37.596  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:12:37.596  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/
+06-20 12:12:37.797  3884  3997 I Unity   : [MoPub-Unity] [EmitRewardedVideoFailedEvent] Ad failed to load: (30c362fc0e0a46b991d8a543e7bfde7c) No ads found.
+06-20 12:12:37.797  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:37.797  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:37.797  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:37.797  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:37.797  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:37.797  3884  3997 I Unity   : MoPubManager:EmitRewardedVideoFailedEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:534)
+06-20 12:12:37.797  3884  3997 I Unity   :  
+06-20 12:12:37.797  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:12:37.797  3884  3997 I Unity   : 
+06-20 12:12:38.625  3884  3997 I Unity   : [MoPub-Unity] [RequestInterstitialAd] Attempting to load ad
+06-20 12:12:38.625  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:38.625  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:38.625  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:38.625  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:38.625  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:38.625  3884  3997 I Unity   : MoPub:RequestInterstitialAd (string,string,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:333)
+06-20 12:12:38.625  3884  3997 I Unity   : SceneManager:<Start>b__14_2 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:46)
+06-20 12:12:38.625  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:12:38.625  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:12:38.625  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTes
+06-20 12:12:38.879  3884  3997 I Unity   : [MoPub-Unity] [EmitInterstitialFailedEvent] Ad failed to load: (bb45288e5142444aae022b55a6035d0c) No ads found.
+06-20 12:12:38.879  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:38.879  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:38.879  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:38.879  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:38.879  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:38.879  3884  3997 I Unity   : MoPubManager:EmitInterstitialFailedEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:464)
+06-20 12:12:38.879  3884  3997 I Unity   :  
+06-20 12:12:38.879  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:12:38.879  3884  3997 I Unity   : 
+06-20 12:12:40.542  3884  3997 I Unity   : [MoPub-Unity] [RequestInterstitialAd] Attempting to load ad
+06-20 12:12:40.542  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:40.542  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:40.542  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:40.542  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:40.542  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:40.542  3884  3997 I Unity   : MoPub:RequestInterstitialAd (string,string,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:333)
+06-20 12:12:40.542  3884  3997 I Unity   : SceneManager:<Start>b__14_2 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:46)
+06-20 12:12:40.542  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:12:40.542  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:12:40.542  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTes
+06-20 12:12:40.939  3884  3997 I Unity   : [MoPub-Unity] [EmitInterstitialLoadedEvent] Ad loaded
+06-20 12:12:40.939  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:40.939  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:40.939  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:40.939  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:40.939  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:40.939  3884  3997 I Unity   : MoPubManager:EmitInterstitialLoadedEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:452)
+06-20 12:12:40.939  3884  3997 I Unity   :  
+06-20 12:12:40.939  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:12:40.939  3884  3997 I Unity   : 
+06-20 12:12:41.493  3884  3997 I Unity   : [MoPub-Unity] [RequestRewardedVideo] Attempting to load ad
+06-20 12:12:41.493  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:41.493  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:41.493  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:41.493  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:41.493  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:41.493  3884  3997 I Unity   : MoPub:RequestRewardedVideo (string,System.Collections.Generic.List`1<MoPub/LocalMediationSetting>,string,string,double,double,string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:396)
+06-20 12:12:41.493  3884  3997 I Unity   : SceneManager:<Start>b__14_3 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:51)
+06-20 12:12:41.493  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:12:41.493  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/
+06-20 12:12:41.839  3884  3997 I Unity   : [MoPub-Unity] [EmitRewardedVideoLoadedEvent] Ad loaded
+06-20 12:12:41.839  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:41.839  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:41.839  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:41.839  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:41.839  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:41.839  3884  3997 I Unity   : MoPubManager:EmitRewardedVideoLoadedEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:522)
+06-20 12:12:41.839  3884  3997 I Unity   :  
+06-20 12:12:41.839  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:12:41.839  3884  3997 I Unity   : 
+06-20 12:12:43.506  3884  3997 I Unity   : [MoPub-Unity] [ShowInterstitialAd] Attempting to show ad
+06-20 12:12:43.506  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:43.506  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:43.506  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:43.506  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:43.506  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:43.506  3884  3997 I Unity   : MoPub:ShowInterstitialAd (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPub.cs:345)
+06-20 12:12:43.506  3884  3997 I Unity   : SceneManager:<Start>b__14_4 () (at E:/repo/MopubTest/Assets/Scripts/SceneManager.cs:56)
+06-20 12:12:43.506  3884  3997 I Unity   : UnityEngine.Events.InvokableCall:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:166)
+06-20 12:12:43.506  3884  3997 I Unity   : UnityEngine.Events.UnityEvent:Invoke () (at /Users/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_0.cs:58)
+06-20 12:12:43.506  3884  3997 I Unity   : UnityEngine.UI.Button:Press () (at E:/repo/MopubTest/Library/PackageCac
+06-20 12:12:43.517  3884  3884 I Unity   : onPause
+06-20 12:12:43.535  3884  3997 D Unity   : Vulkan PSO: data extracted [new size=86755, old size=86755, incomplete=0]
+06-20 12:12:43.535  3884  3997 D Unity   : Vulkan PSO: Pipeline cache has not changed skipping save handle[b502e580]
+06-20 12:12:43.544  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:12:43.570  3884  3884 D Unity   : onActivityResumed: com.mopub.mobileads.MoPubFullscreenActivity@47163f7
+06-20 12:12:43.732  3884  3884 I Unity   : windowFocusChanged: false
+06-20 12:12:44.139  3884  3884 D Unity   : PersistentUnitySurface.preserveContent: android.view.SurfaceView{d9f0b7 VFE...... .F....I. 0,0-1080,2340 #7f0800e1 app:id/unitySurfaceView aid=1073741824}
+06-20 12:12:44.139  3884  3884 D Unity   : PlacerHoler view already exists
+06-20 12:12:44.139  3884  3997 D Unity   : SetWindow 0 0x0
+06-20 12:12:44.711  3884  3884 D Unity   : onActivityResumed: com.unity3d.player.UnityPlayerActivity@adb7ff3
+06-20 12:12:44.711  3884  3884 I Unity   : onResume
+06-20 12:12:44.736  3884  3997 D Unity   : SetWindow 0 0xe6d68ef8
+06-20 12:12:44.737  3884  3997 D Unity   : SetWindow 0 0xe6d68ef8
+06-20 12:12:44.824  3884  3884 I Unity   : windowFocusChanged: true
+06-20 12:12:44.824  3884  3997 D Unity   : AndroidDisplayManagerVulkan::AttachWindow(0xe6d68ef8, 0)
+06-20 12:12:44.838  3884  3997 D Unity   : InitializeOrResetSwapChain 1080x2340 hdr=0 samples=0
+06-20 12:12:45.012  3884  3997 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+06-20 12:12:45.025  3884  3997 D Unity   : Choreographer available: Enabling VSYNC timing
+06-20 12:12:45.078  3884  3997 I Unity   : [MoPub-Unity] [EmitInterstitialShownEvent] Ad shown
+06-20 12:12:45.078  3884  3997 I Unity   : UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+06-20 12:12:45.078  3884  3997 I Unity   : UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+06-20 12:12:45.078  3884  3997 I Unity   : UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+06-20 12:12:45.078  3884  3997 I Unity   : UnityEngine.Debug:LogFormat (string,object[])
+06-20 12:12:45.078  3884  3997 I Unity   : MoPubLog:Log (string,string,object[]) (at E:/repo/MopubTest/Assets/MoPub/Scripts/Internal/MoPubLog.cs:76)
+06-20 12:12:45.078  3884  3997 I Unity   : MoPubManager:EmitInterstitialShownEvent (string) (at E:/repo/MopubTest/Assets/MoPub/Scripts/MoPubManager.cs:497)
+06-20 12:12:45.078  3884  3997 I Unity   :  
+06-20 12:12:45.078  3884  3997 I Unity   : (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+06-20 12:12:45.078  3884  3997 I Unity   : 
